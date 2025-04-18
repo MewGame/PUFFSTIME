@@ -13,9 +13,10 @@ DEFINE('RACINE', '/PUFFSTIME/')
 <body>
 <header>
         <img src="<?= RACINE ?>images/logo.png" alt="">
+        <a href="<?=RACINE?>pages/inscriptions.php">Sign up</a>
     </header>
         <nav>
-            <a href="<?=RACINE?>pages/accueil.php"><img src="/</a>
+            <a href="<?=RACINE?>pages/accueil.php"></a>
             <a href="<?=RACINE?>pages/produits.php">Produits</a>
             <a href="<?=RACINE?>pages/panier.php">Panier</a>
         </nav>
