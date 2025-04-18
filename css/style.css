@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 2em;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color:#2cace2;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img{
+    padding: 1%;
+    width: 10%;
+}
+
+nav{
+    background: #2cace2;
+    width: 25%;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    width: 80%;
+    margin: 1em auto;
+    background: rgb(255, 255, 255);
+    color: rgb(63, 198, 219);
+    text-align: center;
+
+}
+aside{
+    background-color: lightyellow;
+    width: 25%;
+}
+aside img{
+    display: block;
+    width: 100%;
+}
+footer{
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+}
+
+/* ############################
+
+    ACCUEIL
+
+############################ */
+
+
+
+
+main {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+main h2 {
+    text-align: center;
+    color: rgb(63, 198, 219);
+    font-size: 70px;
+    margin: 20px 20px 10px;
+    background-color: cadetblue;
+    font-family: 'Arial', sans-serif;
+}
+.puffsection {
+    text-align: center;
+    margin: 10px 10px auto;
+    border: 2px solid rgb(128, 176, 240);
+    background-color: rgb(117, 123, 124);
+}
+.puffsection img{
+    width: 40%;
+    margin: 20px 5px;
+}
+.puffsection button{
+    width: 80%;
+    background-color: rgb(57, 121, 186);
+    font-size: 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ############################
+
+    HOMEPAGE
+
+############################ */
+
+#home{
+    display: flex;
+}
+#home video{
+    width: 85%;
+}
+#home a{
+    display: block;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(87, 87, 255);
+    font-size: 100px;
+}
+button{
+    width: 15%;
+    color: white;
+    background-color: rgb(90, 167, 196);
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+}
+.bouton:hover {
+    background-color: #f9f9f9;
+    color:rgb(90, 167, 196);
+}
