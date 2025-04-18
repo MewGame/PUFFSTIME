@@ -3,7 +3,7 @@
     ?>
 
     <main>
-        <h2>Veuillez réessayer en cliquant <a href="<?= RACINE ?>pages/inscription.php">ici.</a></h2>
+        <h2>Veuillez réessayer.</h2>
     </main>
 
 <?php 
