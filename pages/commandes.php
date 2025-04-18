@@ -15,7 +15,7 @@ if (isset($_POST['lastname']) && !empty($_POST['firstname']) && !empty($_POST['e
 
     $auth = new PDO('mysql:server=localhost;dbname=puffstime', 'root', '');
 
-    $sql = "INSERT INTO clients(nom,prenom,email,ville,cp,tel) VALUES ('$nom', '$prenom', '$email', '$ville', '$cp', '$tel')";
+    $sql = "INSERT INTO commandes(nom,prenom,email,ville,cp,tel) VALUES ('$nom', '$prenom', '$email', '$ville', '$cp', '$tel')";
 
     if ($auth->query($sql)){
         header('Location:inscription.php');
