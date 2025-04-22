@@ -126,6 +126,8 @@ button{
     background-color: #f9f9f9;
     color:rgb(90, 167, 196);
 }
+
+/* FORMULAIRE */
 form {
     width: 400px;
     margin: 40px auto;
@@ -156,4 +158,50 @@ form input[type="submit"] {
 }
 form input[type="submit"]:hover {
     background-color: darkblue;
+}
+
+
+/* ############################
+
+    produitpage
+
+############################ */
+
+.puffproduct {
+    border: 2px solid rgb(128, 176, 240);
+    /* background-color: rgb(16, 152, 175); */
+    background-color: lightblue;
+    width: 49%;
+    
+}
+.puffproduct h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+article {
+    display: flex;
+}
+article img {
+    width: 30%;
+    margin: 1em 3em;
+}
+article h3 {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.infos {
+    background-color: rgb(189, 238, 236);
+    margin: 30px 25px;
+}
+article p{
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.puffbut{
+    text-align: center;
+    justify-content: center;
 }
