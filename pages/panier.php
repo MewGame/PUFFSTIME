@@ -1,7 +1,7 @@
 <?php
     include "../inc/top.php"
-    include '../structure/connexion.php';
     #Normalement je voulais que ça affiche le panier automatiquement dès qu'on va sur le nav du panier mais je comprends pas du tout comment faut faire donc je vous laisse juste le SQL
+    #include '../structure/connexion.php';
     #$id_client = 1;
     #$sql = "SELECT p.Nom, p.prix, c.quantité
         #FROM commandes c
