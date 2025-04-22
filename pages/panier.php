@@ -12,6 +12,14 @@
 
     <section class="panier">
         <form action="traitement.php" method="post">
+            <label for="nompuff">Choisissez votre puff :</label>
+            <select name="name" id="nompuff">
+                <option value="">--Veuillez choisir une option--</option>
+                <option value="dog">Puff Goût cherrycoca</option>
+                <option value="cat">Puff Goût berry berry</option>
+                <option value="hamster">Puff Goût strawberry</option>
+                <option value="parrot">Puff Goût bluerazz</option>
+            </select>
             <input type="number" id="quantité" name="quantité" placeholder="Quantité">
             <input type="submit">
         </form>

@@ -1,7 +1,8 @@
 <?php
 include '../structure/connexion.php';
 
-$id_client = 1;
+/* TEST Mais vu que je n'ai pas tout ce qu'il faut pour faire fonctionner je vous mets ça : */
+ $id_client = 1;
 
 if (isset($_POST['id_produit']) && isset($_POST['quantite'])) {
     $id_produit = (int) $_POST['id_produit'];
@@ -18,5 +19,6 @@ if (isset($_POST['id_produit']) && isset($_POST['quantite'])) {
     header("Location: panier.php");
 } else {
     header("Location: pb.php");
-}
+} 
+
 ?>

@@ -11,7 +11,7 @@
             <section class="infos">
                 <h3>Puff Goût cherrycoca</h3>
                 <strong><p>150 €</p></strong>
-                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/produits.php'">ajouter au panier</button>
+                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/panier.php'">ajouter au panier</button>
             </section>
         </article>
 
@@ -21,7 +21,7 @@
             <section class="infos">
                 <h3>Puff Goût berry berry</h3>
                 <strong><p>150 €</p></strong>
-                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/produits.php'">ajouter au panier</button>
+                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/panier.php'">ajouter au panier</button>
             </section>
         </article>
 
@@ -31,7 +31,7 @@
             <section class="infos">
                 <h3>Puff Goût strawberry</h3>
                 <strong><p>150 €</p></strong>
-                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/produits.php'">ajouter au panier</button>
+                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/panier.php'">ajouter au panier</button>
             </section>
         </article>
 
@@ -41,7 +41,7 @@
             <section class="infos">
                 <h3>Puff Goût bluerazz</h3>
                 <strong><p>150 €</p></strong>
-                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/produits.php'">ajouter au panier</button>
+                <button class="puffbut" onclick="window.location.href='<?= RACINE ?>pages/panier.php'">ajouter au panier</button>
             </section>
         </article>
     </section>
