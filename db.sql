@@ -24,3 +24,9 @@ CREATE TABLE commandes (
     id_produits int,
     quantité float
 )
+
+INSERT INTO produits(nom,prix) VALUES
+("Puff Goût cherrycoca", 150),
+("Puff Goût berry berry", 150),
+("Puff Goût strawberry", 150),
+("Puff Goût bluerazz", 150)
